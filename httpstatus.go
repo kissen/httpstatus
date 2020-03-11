@@ -40,34 +40,23 @@ var descriptions = map[int]string{
 	422: "The request was well-formed but was unable to be followed due" +
 		" to semantic errors.",
 	423: "The resource that is being accessed is locked.",
-
 	424: "The method could not be performed on the resource because the" +
 		" requested action depended on another action and that action" +
 		" failed.",
-
 	428: "This request is required to be conditional; try using" +
 		"\"If-Match\" or \"If-Unmodified-Since\".",
-
 	429: "This user has exceeded an allotted request count. Try again later.",
-
 	431: "One or more header fields exceeds the maximum size.",
-
 	451: "Unavailable for legal reasons.",
-
 	500: "The server encountered an internal error and was unable to" +
 		" complete your request. Either the server is overloaded or" +
 		" there is an error in the application.",
-
 	501: "The server does not support the action requested by the browser.",
-
 	502: "The proxy server received an invalid response from an upstream server.",
-
 	503: "The server is temporarily unable to service your request due" +
 		" to maintenance downtime or capacity problems. Please try" +
 		" again later.",
-
 	504: "The connection to an upstream server timed out.",
-
 	505: "The server does not support the HTTP protocol version used in the request.",
 }
 
